@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Lato:wght@400&family=Quicksand:wght@700&family=Reem+Kufi&family=Roboto&family=Roboto+Mono&display=swap");
+@import url("bootstrap.css");
+@import url("upperbar.css");
+@import url("storage.css");
+@import url("content2.css");
+@import url("features.css");
+@import url("download.css");
+@import url("testimonials.css");
+@import url("Subscribe.css");
+@import url("other_opotion.css");
+
+:root {
+  /*Color Palates*/
+  --primary: #282828;
+  --secondary: #30fbef;
+  --negative: #ffffff;
+  --bordercolor: #272829;
+  --radialbgrnd: radial-gradient(
+    38.2% 50% at 50% 50%,
+    #2e3134 0%,
+    #292b2e 100%
+  );
+  --cardcolor: #212121;
+
+  /*Font size*/
+  --logofont: 26px;
+  --para: 17px;
+
+  /*Shadow property*/
+  --btn: 4px 3px 8px rgba(0, 0, 0, 0.25), -3px -3px 8px rgba(75, 93, 104, 0.1);
+  --bordershadow: inset 2px 2px 40px rgba(0, 0, 0, 0.3);
+
+  /*Font Weight */
+  --regular: 400;
+  --medium: 500;
+  --extrabold: 800;
+  --black: 900;
+}
+
+body {
+  padding: 15px;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: var(--primary);
+  font-family: "Lato", sans-serif;
+  color: var(--secondary);
+  overflow-x: hidden;
+}
+
+p {
+  font-size: var(--para);
+  color: var(--negative);
+  font-weight: var(--medium);
+}
+.wholebody {
+  width: 100%;
+}
+.firstimage object {
+  width: 100%;
+}
+button {
+  cursor: pointer;
+}
+@media (min-width: 597px) {
+  body {
+    height: 5000px;
+  }
+}
+button {
+  transition: all 0.3s ease-out;
+}
+button:hover {
+  transform: scale(1.08);
+}
+button:active {
+  transform: scale(0.9);
+}

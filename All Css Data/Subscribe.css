@@ -1,0 +1,54 @@
+@media (min-width: 596px) {
+  .subscribe_whole {
+    position: relative;
+    top: -650px;
+  }
+}
+.input1 {
+  border: 2px solid white;
+  outline: none;
+  height: 56px;
+  width: 400px;
+  background: var(--radialbgrnd);
+  border: 2px solid var(--bordercolor);
+  box-shadow: var(--bordershadow);
+  border-radius: 50px;
+  font-size: 16px;
+}
+.subscribe_whole button {
+  border: none;
+  outline: none;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  font-weight: var(--regular);
+  justify-content: space-around;
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+  background-color: var(--primary);
+  box-shadow: var(--btn);
+  color: var(--negative);
+  letter-spacing: 2px;
+}
+#Tryit button {
+  width: 200px;
+}
+#Tryit {
+  margin-top: 90px;
+}
+#button2 {
+  border: none;
+  outline: none;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  font-weight: var(--regular);
+  justify-content: space-around;
+  height: 50px;
+  width: 250px;
+  border-radius: 50px;
+  background-color: var(--primary);
+  box-shadow: var(--btn);
+  color: var(--secondary);
+}

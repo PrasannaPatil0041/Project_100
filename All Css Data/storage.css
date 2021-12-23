@@ -1,0 +1,49 @@
+.storage_writeup h1 {
+  font-size: 60px;
+  font-weight: var(--black);
+  word-spacing: 3px;
+}
+.storage_writeup p {
+  font-size: var(--para);
+}
+.storage_writeup button {
+  border: none;
+  outline: none;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  font-weight: var(--regular);
+  justify-content: space-around;
+  height: 50px;
+  width: 200px;
+  border-radius: 50px;
+  background-color: var(--primary);
+  box-shadow: var(--btn);
+  color: var(--secondary);
+}
+
+@media (min-width: 596px) {
+  .storage_writeup {
+    text-align: right;
+  }
+}
+@media (min-width: 900px) {
+  .storage_writeup h1 #break {
+    display: none !important;
+  }
+  .storage_writeup {
+    text-align: left;
+  }
+  .storage_writeup h1 {
+    font-size: 55px;
+  }
+}
+
+@media (min-width: 630px) and (max-width: 900px) {
+  .storage_writeup {
+    position: relative;
+    top: -100px;
+    transform: translateY(-10%);
+    max-width: 900px;
+  }
+}

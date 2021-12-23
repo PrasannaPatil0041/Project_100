@@ -1,0 +1,50 @@
+.whole_features {
+  background: var(--radialbgrnd);
+  border: 2px solid var(--bordercolor);
+  box-shadow: var(--bordershadow);
+  border-radius: 50px;
+  margin-top: 100px;
+}
+.card {
+  width: 320px;
+  height: 500px;
+  background-color: var(--cardcolor);
+  border-radius: 50px;
+  box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.25),
+    -9px -9px 10px rgba(75, 93, 104, 0.1);
+}
+.card_content h2 {
+  font-size: 20px;
+}
+.card_content a {
+  text-decoration: none;
+  color: var(--secondary);
+  word-spacing: 2px;
+}
+.page_change1 {
+  cursor: pointer;
+}
+.page_change2 {
+  cursor: pointer;
+}
+
+.translate_forward {
+  transform: translateX(0);
+  animation: fade 0.5s ease-out forwards;
+}
+
+@keyframes fade {
+  to {
+    transform: translateX(-500px);
+  }
+}
+
+.allcards {
+  transition: all 0.5s ease-out;
+}
+.cliping {
+  clip-path: polygon(0 0, 130% 0, 130% 130%, 0 130%);
+}
+.rotate {
+  transform: rotateY(180deg);
+}

@@ -1,0 +1,31 @@
+.testimonials_whole {
+  background: var(--radialbgrnd);
+  border: 2px solid var(--bordercolor);
+  box-shadow: var(--bordershadow);
+  border-radius: 50px;
+  margin: 100px;
+}
+.card2 {
+  width: 470px;
+  height: 250px;
+  background-color: var(--cardcolor);
+  border-radius: 50px;
+  box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.25),
+    -9px -9px 10px rgba(75, 93, 104, 0.1);
+}
+@media (min-width: 596px) {
+  .whole {
+    position: relative;
+    top: -700px;
+  }
+}
+.translate_testimonials {
+  transform: translateX(0);
+  animation: fade 0.5s ease-out forwards;
+}
+
+@keyframes fade {
+  to {
+    transform: translateX(-500px);
+  }
+}

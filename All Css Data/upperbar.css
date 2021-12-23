@@ -1,0 +1,41 @@
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.logo h1 {
+  padding-left: 6px;
+  font-weight: var(--extrabold);
+}
+
+.upperright button {
+  border: none;
+  outline: none;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  font-weight: var(--regular);
+  justify-content: space-around;
+  height: 50px;
+  width: 200px;
+  border-radius: 50px;
+  background-color: var(--primary);
+  box-shadow: var(--btn);
+  color: var(--secondary);
+}
+.upperright a {
+  padding: 25px;
+  text-decoration: none;
+  color: var(--negative);
+  font-weight: var(--regular);
+}
+
+@media (max-width: 848px) {
+  .abovelinks {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

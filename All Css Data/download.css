@@ -1,0 +1,40 @@
+.download_whole {
+  margin-top: 90px;
+}
+.download_content {
+  background: var(--radialbgrnd);
+  border: 2px solid var(--bordercolor);
+  box-shadow: var(--bordershadow);
+  border-radius: 50px;
+  text-align: center;
+}
+.download button {
+  border: none;
+  outline: none;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  font-weight: var(--regular);
+  justify-content: space-around;
+  height: 50px;
+  width: 200px;
+  border-radius: 50px;
+  background-color: var(--primary);
+  box-shadow: var(--btn);
+  color: var(--negative);
+}
+
+@media (min-width: 596px) {
+  .download_content {
+    text-align: left;
+  }
+  .download_image {
+    transform: rotate(15deg) translateY(-65%) translateX(30%);
+  }
+}
+
+@media (min-width: 900px) {
+  .download_image {
+    transform: rotate(35deg) translateX(-15%) translateY(-80%);
+  }
+}
