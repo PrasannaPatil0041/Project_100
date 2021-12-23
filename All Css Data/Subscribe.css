@@ -9,6 +9,7 @@
   outline: none;
   height: 56px;
   width: 400px;
+  color: var(--negative);
   background: var(--radialbgrnd);
   border: 2px solid var(--bordercolor);
   box-shadow: var(--bordershadow);

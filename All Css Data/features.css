@@ -29,17 +29,10 @@
 }
 
 .translate_forward {
-  transform: translateX(0);
-  animation: fade 0.5s ease-out forwards;
+  transform: translateX(-410px);
 }
 
-@keyframes fade {
-  to {
-    transform: translateX(-500px);
-  }
-}
-
-.allcards {
+.features .allcards {
   transition: all 0.5s ease-out;
 }
 .cliping {
